@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates aliquam, sed ex facere, eligendi eum dolorem nemo fugit
+                aut architecto accusamus eaque odio voluptatum reiciendis adipisci 
+                dolores accusantium sequi pariatur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates aliquam, sed ex facere, eligendi eum dolorem nemo fugit
+                aut architecto accusamus eaque odio voluptatum reiciendis adipisci 
+                dolores accusantium sequi pariatur.
+            </div>
+            <div class="col-lg-12 ">
+                <ul class="nav nav-tabs" id="montabs" role="tablist">
+                    <li class="nav-item ">
+                        <a href="#" data-bs-target="#premiercontenu" data-bs-toggle="tab" class="nav-link active " role="tab" >Premier tabs</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="#" data-bs-target="#deuxiemecontenu" data-bs-toggle="tab" class="nav-link" role="tab" >deuxieme tabs</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="#" data-bs-target="#troisiemecontenu" data-bs-toggle="tab" class="nav-link" role="tab" >troisieme tabs</a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content">
+                    <div class="tap-pane fade active show" id="premiercontenu" role="tabpanel">
+                       <div class="container">
+                           <div class="row col-lg-4">
+                               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quam velit itaque, autem reprehenderit est officia architecto
+                                 assumenda. Sequi sit ex vitae! Incidunt at ex, ut ab vitae
+                                  praesentium recusandae laborum.
+                           </div>
+                       </div>
+                    </div>
+                    <div class="tap-pane fade" id="deuxiemecontenu" role="tabpanel">
+                        Bienvenue sur le deuxieme tabulation
+                    </div>
+                    <div class="tap-pane fade" id="troisiemecontenu"role="tabpanel">
+                        Bienvenue sur le troisieme tabulation
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item "><a href="#" class="nav-link active">Premier tabs</a></li>
+                    <li  class="nav-item"><a href="#"  class="nav-link">deuxieme tabs</a></li>
+                    <li  class="nav-item"><a href="#" class="nav-link">troisieme tabs</a></li>
+      
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

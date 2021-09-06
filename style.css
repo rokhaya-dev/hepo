@@ -1,0 +1,25 @@
+.bg-base{
+    background-color:#754ffe  !important;
+}
+.color{
+    background-color: #ffeed5 !important
+;
+}
+.text{
+    background-color: #f5f4f9 !important ;
+}
+.menu{
+    list-style-type: none !important ;
+    background-color: white !important ;
+}
+.menu li a{
+    color: black !important ;
+    padding: 12px !important ;
+    display: block !important ;
+    text-decoration: none !important ;
+}
+.menu li{
+    display: inline-block !important ;
+    
+    
+}
